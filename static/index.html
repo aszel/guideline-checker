@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guideline Checker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <h2>Guideline Checker</h2>
+    <form id="analysisForm">
+        <label for="job_description_file">Leistungsbeschreibung (PDF):</label>
+        <input type="file" id="job_description_file" accept=".pdf" required><br><br>
+        
+        <label for="prompt_template_file">Prompt (TXT):</label>
+        <input type="file" id="prompt_template_file" accept=".txt" required><br><br>
+        
+        <label for="top_n">Top-N Leitlinien:</label>
+        <select id="top_n">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3" selected>3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select><br><br>
+        
+        <label for="model">Modell:</label>
+        <select id="model">
+            <option value="gpt-4o-mini" selected>gpt-4o-mini</option>
+            <option value="gpt-4o">gpt-4o</option>
+        </select><br><br>
+
+        <button type="submit">Analyse starten</button>
+    </form>
+    
+    <h3>Ergebnis:</h3>
+    <pre id="result"></pre>
+    
+    <h3>GPT-Resultat:</h3>
+    <div id="markdown-output"></div>
+    
+    <script>
+        document.getElementById("analysisForm").onsubmit = async function(event) {
+            event.preventDefault();
+            
+            let jobFile = document.getElementById("job_description_file").files[0];
+            let promptFile = document.getElementById("prompt_template_file").files[0];
+            let topN = document.getElementById("top_n").value;
+            let model = document.getElementById("model").value;
+            
+            if (!jobFile || !promptFile) {
+                alert("Bitte beide Dateien hochladen.");
+                return;
+            }
+            
+            let formData = new FormData();
+            formData.append("job_description_file", jobFile);
+            formData.append("prompt_template_file", promptFile);
+            formData.append("top_n", topN);
+            formData.append("model", model);
+            formData.append("show_prompt", "true");
+            
+            document.getElementById("result").textContent = "Analysiere...";
+            document.getElementById("markdown-output").innerHTML = "";
+            
+            try {
+                let response = await fetch("/run", {
+                    method: "POST",
+                    body: formData
+                });
+                
+                let result = await response.json();
+                document.getElementById("result").textContent = JSON.stringify(result, null, 4);
+                
+                if (result.gpt_result) {
+                    document.getElementById("markdown-output").innerHTML = marked.parse(result.gpt_result);
+                }
+            } catch (error) {
+                document.getElementById("result").textContent = "Fehler bei der Anfrage.";
+            }
+        };
+    </script>
+</body>
+</html>

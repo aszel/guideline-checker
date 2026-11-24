@@ -1,0 +1,98 @@
+Überprüfe die folgende Leistungsbeschreibung anhand der relevantesten Leitlinien.
+
+Leitlinien:
+<leitlinien>
+{leitlinien}
+</leitlinien>
+
+Leistungsbeschreibung:
+<leistungsbeschreibung>
+{beschreibung}
+</leistungsbeschreibung>
+
+Liste auf:
+- Welche Vorgaben aus den Leitlinien fehlen?
+- Welche Vorgaben sind erfüllt?
+- Gibt es Widersprüche oder Unklarheiten?
+- Mache Verbesserungsvorschläge.
+
+Überprüfe die Leistungsbeschreibung ob du Hinweise auf Scheinselbständigkeit darin erkennen kannst.
+
+Indikatoren für Scheinselbständigkeit:
+<scheinselbststaendigkeit_indikatoren>
+# Scheinselbständigkeit
+
+## Einleitung
+Im Allgemeinen versteht man unter dem Begriff Scheinselbstständigkeit das Auftreten als Selbstständiger, obwohl der Betroffene im Sinne der Sozialversicherung als abhängig beschäftigt anzusehen ist. Entscheidend ist, wie sich die Tätigkeit unter Berücksichtigung von sämtlichen gegebenen Umständen im Einzelfall darstellt.
+
+Abhängig Beschäftigte werden als sozial schutzbedürftig angesehen und unterliegen somit dem Schutz der Sozialversicherungen. Daher besteht für sie Beitragspflicht in den Sozialversicherungen (Kranken-, Pflege-, Renten- und Arbeitslosenversicherung). Selbstständigen wird dagegen die Absicherung dieser Risiken grundsätzlich selbst überlassen, so dass keine Beitragspflicht für sie besteht. Stellt sich eine Selbstständigkeit als Scheinselbstständigkeit heraus, können Nachzahlungen fällig werden.
+
+## Scheinselbstständigkeit – Was ist das?
+**Von einer Scheinselbstständigkeit spricht man, wenn:**
+die Vertragsparteien eine selbstständige Tätigkeit annehmen,
+daher auch keine Beiträge zur Sozialversicherung abführen,
+die Tätigkeit sich aber unter Berücksichtigung aller Umstände als abhängige Beschäftigung darstellt.
+Scheinselbstständigkeit ist somit kein eigener Rechtsbegriff, sondern führt im Ergebnis zum Vorliegen eines Arbeitsverhältnisses. Die Prüfung, ob es sich um eine selbstständige oder eine abhängige Beschäftigung handelt, gestaltet sich in vielen Fällen komplex.
+
+## Wichtig für Auftraggeber: Scheinselbstständigkeit ausschließen
+Die Abgrenzung zwischen selbstständiger Tätigkeit und abhängiger Beschäftigung ist wichtig, denn Beschäftigte unterliegen der Gesamtsozialversicherungspflicht. Diese setzt sich aus der Kranken-, Renten-, Pflege- und Arbeitslosenversicherung zusammen. Zusätzlich steht der Arbeitgeber in der Pflicht, Umlagen für Mutterschafts- und Insolvenzgeld (sowie bei kleinen Unternehmen Umlage zur Entgeltfortzahlung im Krankheitsfall) und Beiträge für die gesetzliche Unfallversicherung zu zahlen. Besonders wichtig ist der Ausschluss einer Scheinselbstständigkeit für den Auftraggeber.
+
+## Indizien für eine Scheinselbstständigkeit
+Eine Scheinselbstständigkeit kann vorliegen, wenn ein Arbeitnehmer zwar mit einem Werkvertrag nach außen als selbstständiger Unternehmer agiert, bei der Erledigung seiner Aufgaben aber vollkommen weisungsgebunden und in die Organisation des Arbeitgebers eingebunden ist. Folgende Kriterien können unter anderem als Anhaltspunkte für das Vorliegen einer Scheinselbstständigkeit im sozialversicherungsrechtlichen Sinn sprechen:
+* Feste Arbeitszeiten wie zum Beispiel bei Schichtdienst
+* Eine feste Integration in Prozesse oder die Infrastruktur des Auftraggebers
+* Arbeit in den Räumen des Auftraggebers
+* Unmittelbare Weisungsbefugnis des Auftraggebers bei der Erfüllung seiner Aufgaben
+* Keine Beschäftigung eines versicherungspflichtigen Arbeitnehmers durch den „Selbstständigen“
+* Reporting-Pflichten gegenüber dem Auftraggeber
+* Feste Bezüge
+* Entgeltfortzahlung im Krankheitsfall
+* Urlaubsanspruch, Absprache von Urlaubszeiten mit anderen Arbeitnehmern
+Die Liste ist nicht abschließend, denn für die Abgrenzung müssen alle Umstände des Einzelfalls betrachtet werden. Das Gesamtbild ist entscheidend. Selbstverständlich ist es denkbar, dass einige Indizien für eine abhängige Beschäftigung sprechen, aber dennoch die Indizien für eine Selbstständigkeit überwiegen.
+
+## Indizien für eine Selbstständigkeit
+Folgende Anhaltspunkte sprechen für eine selbstständige Tätigkeit im sozialversicherungsrechtlichen Sinn:
+* Eigener Unternehmensauftritt nach außen (Werbung)
+* Es wird nicht über einen längeren Zeitraum nur für einen Auftraggeber gearbeitet
+* Lediglich ein geringes Maß an Weisungsgebundenheit gegenüber dem Auftraggeber
+* Keine oder eine nur geringe Einbindung in die interne Organisation des Auftraggebers (z. B. keine oder nicht regelmäßige Teilnahme an Meetings und internen Briefings)
+* Ort und Zeitplanung sind dem Selbstständigen überlassen
+* Der Selbstständige arbeitet in einer eigenen Betriebsstätte
+* Im Zusammenhang mit der Ausübung der Tätigkeit wird ein eigener Angestellter beschäftigt
+* Eigenes Kapital und die eigene Arbeitskraft werden unter Risiko eines Verlusts eingesetzt. Besonders wichtig sind die selbst getragene unternehmerische Entscheidungsfreiheit und das unternehmerische Risiko. In Verträgen sollte der Hinweis stehen, dass der selbstständig tätige Auftragnehmer an keinerlei Weisungen gebunden ist.
+* Eine Vergütung, die weit über dem für sozialversicherungspflichtige Angestellte Üblichen liegt und somit Eigenvorsorge ermöglicht
+
+## Selbstcheck für Auftraggeber und Auftragnehmer
+Wird eine oder mehrere der folgenden Fragen mit „Nein“ beantwortet, könnte es sich bei dem Beschäftigungsverhältnis um eine Scheinselbstständigkeit handeln. Für eine fundierte Beurteilung müssen aber alle Umstände des Einzelfalls berücksichtigt werden.
+* Bestimmt der Auftragnehmer seine Arbeitszeiten selbst?
+* Wählt der Auftragnehmer seinen Arbeitsplatz in der Regel frei aus?
+* Kann der Auftragnehmer seiner Arbeit ohne Möglichkeiten der Kontrolle nachgehen, ohne Überwachung durch spezielle Hardware oder Software?
+* Ist der Auftragnehmer im Arbeitsalltag frei von der Erstellung regelmäßiger Berichte?
+* Unterscheiden sich die Aufgaben eines Auftragnehmers von den Tätigkeiten der Festangestellten?
+* Präsentiert sich der Auftragnehmer in der Außenwelt als Selbstständiger?
+
+Bei der finalen Beantwortung der Frage, ob es sich bei einem Beschäftigungsverhältnis um eine Scheinselbstständigkeit handelt, kann dieClearingstelle der Deutschen Rentenversicherung Bund helfen.
+</scheinselbststaendigkeit_indikatoren>
+
+Liste die Stellen potentieller Probleme bezüglich Scheinselbständigkeit in der Leistungsbeschreibung stichpunkartig auf.
+
+Untersuche die Leistungsbeschreibung auf Signalwörter und Begriffe, welche auf Nichteinhaltung der Leitlinien oder Scheinselbstständigkeit hinweisen können.
+Die Signalwörter/Begriffe sind:
+<signalwörter>
+* Unterstützung
+* Koordination
+* Mitarbeit
+* mitarbeiten
+* Zusammenarbeit
+* zusammen arbeiten
+* Mitwirken
+* Eingliederung
+* Support
+* 1st Level Support
+* 2nd Level Support
+* 3rd Level Support
+* Betrieb ( Eingliederung in verschiedene Thematiken, die den Betrieb/Regelbetrieb betreffen)
+* Teilnahme an Regeltermin (Termine dürfen nur projektspezifisch sein)
+</signalwörter>
+
+Zitiere die Stellen der Leistungsbeschreibung, an denen du die Signalwörter/Begriffe erkennst.
